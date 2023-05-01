@@ -97,7 +97,7 @@ nav .menu{
 }
 .header_content img{
     width:70%;
-    background: hsl(0, 0%, 100%) url('guide/images/bg-intro-desktop.svg') bottom left/600px auto no-repeat;
+    background: hsl(0, 0%, 100%) url('bg-intro-desktop.svg') bottom left/600px auto no-repeat;
 }
 
 
@@ -187,7 +187,7 @@ footer .third p{
         grid-column:1;
         grid-row:1;
         padding-bottom: 10px;
-        background: hsl(0, 0%, 100%) url('guide/images/bg-intro-mobile.svg') top center/700px auto no-repeat;
+        background: hsl(0, 0%, 100%) url('bg-intro-mobile.svg') top center/700px auto no-repeat;
         width:100%;
     }
     .header_content .text{
