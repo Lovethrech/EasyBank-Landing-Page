@@ -34,6 +34,8 @@ nav ul a::after{
     content:'';
     position:absolute;
     width:4%;
+    left:0;
+    bottom:-6px;
     height:2px;
     background-color:hsl(136, 65%, 51%);
     border-radius:5px;
@@ -236,10 +238,13 @@ footer .third p{
     .main{
         padding: 10px 30px;
     }
-    .main .reasons, .main .article, .main #question{
+    .main .reasons, .main #question{
         padding:20px 40px 40px;
-        /* margin-bottom: 100px; */
         display:block;
+    }
+    .main .article{
+        padding:20px;
+        display:block
     }
     nav ul, nav .request_button{
         display: none;
