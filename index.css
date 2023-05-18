@@ -30,7 +30,7 @@ header nav{
 nav a{
     color:hsl(233, 26%, 24%);
 }
-nav ul a::after{
+/* nav ul a::after{
     content:'';
     position:absolute;
     width:4%;
@@ -42,10 +42,9 @@ nav ul a::after{
     transform-origin: right;
     transform: scaleX(0);
     transition: transform -5s;
-}
-nav ul a:hover::after{
-    transform: scaleX(1);
-    transform-origin: left;
+} */
+nav ul a:hover{
+    color:hsl(192, 70%, 51%);
 }
 nav .logo{
     grid-column:1;
